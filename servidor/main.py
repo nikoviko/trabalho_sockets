@@ -4,7 +4,6 @@ HOST = '0.0.0.0'
 PORTA = 12000
 
 def calcular_imc(peso: float, altura: float) -> str:
-    # Trata altura se informada em centímetros
     if altura > 3.0:
         altura = altura / 100.0
 
