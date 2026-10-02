@@ -1,6 +1,6 @@
 import socket
 
-IP_SERVIDOR = '127.0.0.1'
+IP_SERVIDOR = '10.10.214.203'
 PORTA_SERVIDOR = 12000
 
 def run_cliente():
